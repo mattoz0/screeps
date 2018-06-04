@@ -1,11 +1,11 @@
-optimizer = require('Master/service.optimizer');
-var roleHarvester = require('Master/role.harvester');
-var roleUpgrader = require('Master/role.upgrader');
-var roleBuilder = require('Master/role.builder');
-var roleRepairer = require('Master/role.repairer');
-var roleGuard = require('Master/role.guard');
-var roleHauler = require('Master/role.hauler');
-var autoSpawn = require('Master/service.autospawn');
+optimizer = require('src/service.optimizer');
+var roleHarvester = require('src/role.harvester');
+var roleUpgrader = require('src/role.upgrader');
+var roleBuilder = require('src/role.builder');
+var roleRepairer = require('src/role.repairer');
+var roleGuard = require('src/role.guard');
+var roleHauler = require('src/role.hauler');
+var autoSpawn = require('src/service.autospawn');
 
 module.exports.loop = function () {
     if(typeof Memory.haulQueue !== 'undefined') {
