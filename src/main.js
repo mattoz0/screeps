@@ -1,4 +1,3 @@
-console.log('test');
 optimizer = require('service.optimizer');
 var roleHarvester = require('role.harvester');
 var roleUpgrader = require('role.upgrader');
